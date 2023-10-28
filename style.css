@@ -78,3 +78,20 @@ article a {
 section + section {
     margin-top: 20px;
 }
+
+#geo {
+    background-color: #0077b6;
+}
+
+#saude {
+    background-color: orangered;
+}
+#saude > article > a {
+    color: orangered;
+}
+#saude > article > header {
+    background-color: black;
+}
+#geo > article > header {
+    background-color: green;
+}
