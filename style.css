@@ -1,0 +1,80 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+}
+
+/* Style the articles */
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article time {
+    font-style: italic;
+    font-size: 14px;
+}
+
+article h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+article p {
+    font-size: 16px;
+}
+
+article a {
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+/* Add some spacing between sections */
+section + section {
+    margin-top: 20px;
+}
